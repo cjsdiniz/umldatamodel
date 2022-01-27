@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-UmldatamodelApplication<umldatamodel>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "pt.sdx.umldatamodel.UmldatamodelApplication",
+            "projectName": "umldatamodel",
+            "args": ""
+        }
+    ]
+}
