@@ -1,9 +1,14 @@
 package pt.sdx.umldatamodel.domain;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+import org.hibernate.annotations.ManyToAny;
 
 // import java.io.Serializable;
 
@@ -16,6 +21,9 @@ public class Categoria {
     private Integer id;
     private String nome;
 
+    @ManyToMany(mappedBy = "categorias")
+    private List<Produto> produtos;
+        
     public Categoria() {
     }
 
