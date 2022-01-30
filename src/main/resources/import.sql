@@ -1,0 +1,2 @@
+INSERT INTO CATEGORIA(nome) VALUES ('Gestão');
+INSERT INTO CATEGORIA(nome) VALUES ('Informática');
